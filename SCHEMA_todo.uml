@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c86e226d-2ba7-4fe4-929e-3651e0d50c01.SCHEMA:todo</OriginalElement>
+  <nodes>
+    <node x="242.49999999999997" y="320.0">c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.tasks</node>
+    <node x="255.99999999999997" y="160.0">c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.status</node>
+    <node x="451.5" y="0.0">c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.role</node>
+    <node x="440.0" y="127.0">c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.users</node>
+    <node x="56.0" y="160.0">c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.category</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.tasks" target="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.category" relationship="REFERENCES">
+      <point x="-63.66666666666666" y="-82.5" />
+      <point x="274.3333333333333" y="295.0" />
+      <point x="146.0" y="295.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.tasks" target="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.users" relationship="REFERENCES">
+      <point x="63.66666666666666" y="-82.5" />
+      <point x="401.66666666666663" y="295.0" />
+      <point x="528.0" y="295.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.tasks" target="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.status" relationship="REFERENCES">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.users" target="c86e226d-2ba7-4fe4-929e-3651e0d50c01.TABLE:todo.role" relationship="REFERENCES">
+      <point x="0.0" y="-71.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="313.0" y="242.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
