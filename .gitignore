@@ -37,6 +37,7 @@ hs_err_pid*
 .idea
 .idea/*
 .idea/**
+toDoList-c51.iml
 
 # Generated files
 .idea/**/contentModel.xml
